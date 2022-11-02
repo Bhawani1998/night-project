@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.bod{
+    background-image: url(images/1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background: linear-gradient(to top,rgb(0, 0, 0,0.5)50%
+    );
+}
+
+.container{
+    width: 80%;
+    margin: auto; 
+}
+
+.nav{
+    color: yellow;
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.menu-bar{}
+.menu-bar ul {
+    list-style: none;
+    display: flex;
+    padding-top: 10px;}
+
+.input-bar{
+    padding-top: 5px;
+    padding-right: 30px;}
+
+.form{
+    border:none;
+    background: 1px solid rgb(255, 94, 0);
+    /* padding-top: 7px;
+    padding-bottom: 7px; */
+    border-radius: 5px;
+    float: left;
+    width: 170px;
+    height: 36px;}
+
+.btn{
+    background-color: rgb(255, 94, 0);
+
+    padding-top: 7px;
+    padding-bottom: 7px;
+    width: 100px;
+    height: 36px;
+    border-radius: 5px;
+   
+    
+}
+
+ .menu-bar ul li{
+    margin-right: 60px;
+ }
+
+ .content{
+    width: 80%;
+    padding-left: 40px;
+    margin-top: 150px;
+    font-size: x-large;
+    cursor: pointer;
+    
+    
+    
+}
+.content h1{
+    color: white;
+
+}
+
+.content a{
+    background-color: rgb(255, 94, 0);
+    border-radius: 5px;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+.content p {
+    color: rgb(236, 228, 228);
+    margin-bottom: 20px;
+    width: 600px;
+}
+
+#dev{ letter-spacing: 2px;
+color:rgb(255, 94, 0) ;
+
+}
+.login-form{
+    
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.login-main{
+    background-color: rgb(21, 19, 19);
+    margin-top: 130px;
+    width: 250px;
+    
+}
+.login-form input{
+    background: transparent;
+    border-bottom: 2px solid rgb(255, 94, 0);
+    margin-top: 40px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+}
+.main-content{
+    display: flex;
+
+}
+#here{text-align: center;
+color:rgb(255, 94, 0);
+border-radius: 5px;
+background-color: white;
+padding-top: 3px;
+padding-bottom: 3px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow',;
+}
+#lo{
+        width: 180px;
+        text-align: center;
+    
+    background-color: rgb(255, 94, 0);
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    padding: 6px 10px;
+    color: rgb(12, 8, 40);
+    border-radius: 5px;
+    
+    
+}
+#do{
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.log{text-align: center;
+     margin: 10px;
+}
+#signup{
+    padding-top:20px;
+    padding-bottom: 20px;
+}
+.with{color: white;}
+
+.icon{
+    width: 220px;
+    color: white;
+    
+    
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    padding-left: 10px;
+    size-adjust: 20px;
+    
+
+}
+.bi-skype{
+    color: rgb(255, 94, 0);
+}
+
+
